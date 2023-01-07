@@ -46,6 +46,7 @@
 /* ---part of tablet ---- */
 
 @media screen and (min-width: 768px) {
+    /* --- top part of tablet ---- */
     .photo-part-of{
         width: 50vw;
         display: flex;
@@ -75,7 +76,7 @@
         margin: 5rem 1rem 0 -4rem;
     }
     .text-of-top{
-        width: 60vw;
+        width: 61vw;
         height: 14vw;
         font-size: 3vw;
         line-height: 4vw ;
@@ -98,5 +99,26 @@
     .h1-arrow-right-black-part{
         font-size: 3vw;
     }
+
+     /* --- middle part of tablet ---- */
+     .image-grid-2-tablet{
+        display: block;
+
+       
+     }
+     .image-grid-1-mobile,
+     .image-grid-1-2x-mobile{
+        display: none;
+     }
+     .first-part-of-middle-1{
+        display: flex;
+        flex-direction: row;
+     }
+     .image-grid-2-tablet{
+        order: 2;
+     }
+     .middle-page-first-part{
+        order: 1;
+     }
     
 }
