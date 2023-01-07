@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+        font-family:  'Outfit', sans-serif;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* top part of mobile version */
+
+   .second-page-photo-of-mobile2x,
+   .second-page-photo-of-tablet, 
+   .second-page-photo-of-tablet2x,
+   .second-page-photo-of-desktop,
+   .second-page-photo-of-desktop2x {
+
+    display: none;
+ }
+ .top_part_connect_main_page{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+
+ }
+.icon-arrow-left{
+    position: relative;
+    display: flex;
+ }
+
+  .img-icon-arrow-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17.64vw;
+    height: 19.4vw;
+    background-color:#D5966C;
+    
+  }
+
+  .arrow-left-black-part{
+   width: 54.4vw;
+   height: 19.4vw;
+   display: flex;
+   align-items: center;
+   background-color: black;
+  
+  }
+
+  .h1-arrow-left-black-part{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+    font-size: 5.3vw;
+    line-height: 6.38vw;
+    letter-spacing: 1vw;
+    color: white;
+    padding-left: 2rem;
+  }
+  .second-page-photo-of-mobile{
+    width: 100vw;
+  }
+
+  /*---middle section of second page---*/
+
+  .middle-section{
+   width: 100vw;
+   height: 130vw;
+   background-color: black;
+
+ }
+ .header-of-second-page-middle,
+ .text-of-second-page-middle2,
+ .text-of-second-page-middle3{
+  color: white;
+}
+ .header-of-second-page-middle{
+   width: 91.46vw;
+   height: 14.4vw;
+   font-family: 'Big Shoulders Display', cursive;
+   font-weight: 900;
+   font-size: 14vw;
+   line-height: 13vw;
+   color: white;
+   padding: 3rem 0 0 1rem;
+ }
+ .text-of-second-page-middle{
+   width: 91.46vw;
+   height: 14.4vw;
+   font-family: 'Big Shoulders Display', cursive;
+   font-weight: 900;
+   font-size: 8.5vw;
+   line-height: 8.5vw;
+   color: #D5966C;
+   padding: 5rem 0 0 1rem;
+ }
+ .text-of-second-page-middle2{
+   padding: 3.5rem 0 0 1rem;
+   font-family:'Outfit', sans-serif;
+   font-size: 4.8vw;
+   font-weight: 300;
+   line-height: 7.47vw;
+ }
+ .text-of-second-page-middle3{
+   width: 91.46vw;
+   height: 10.6vw;
+   margin: 1.5rem 0 0 1rem;
+   font-family:'Outfit', sans-serif;
+   font-size: 4.8vw;
+   font-weight: 300;
+   line-height: 7.47vw;
+ }
+  /* part of button */
+  .button{
+    width: 100vw;
+    height: 89.6vw;
+    background-color: #D5966C;
+
+  }
+  
+ .icon-dark{
+  margin: 3rem 0 0 2rem;
+ }
+ .text-of-button-part{
+  width: 90vw;
+  height: 27.73vw;
+  color: black;
+  padding: 1.5rem 0 0 2rem;
+  font-family:'Outfit', sans-serif;
+  font-size: 4.26vw;
+  font-weight: 300;
+  line-height: 7.47vw;
+}
+.button-icons{
+  margin: 4rem 0  0 2.5rem;
+ }
+ .icon-instagram,
+ .icon-twitter {
+  margin-left: 5.33vw;
+
+ }
+ 
+  
+  

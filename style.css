@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+        font-family:  'Outfit', sans-serif;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* top part of mobile version */
+    
+.image-hero2x-mobile,
+.image-hero-tablet,
+.image-hero2x-tablet,
+.image-hero-desktop,
+.image-hero2x-desktop {
+
+        display: none;
+      
+}
+ 
+
+ .image-hero-mobile{
+    width: 100vw;
+    height: 64vw;
+ }
+
+ .head-of-mobile-version{
+    width: 91.46vw;
+    height: 29.329vw;
+    padding: 1rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+    font-size: 16vw;
+    line-height: 14.9vw;
+ }
+
+ .text-of-top{
+    width: 91.46vw;
+    height: 29.87vw;
+    padding:2rem 0 0 1rem;
+    font-family:'Outfit', sans-serif;
+    font-size: 4.8vw;
+    font-weight: 300;
+    line-height: 7.47vw;
+    color: #444444;
+ }
+
+ .image-grid-1-mobile{
+    padding-top: 5rem;
+ }
+ .icon-arrow-right{
+    display: flex;
+    margin: 4rem 2rem 1rem 1rem;
+    
+  
+ }
+ .h1-arrow-right-black-part{
+  
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+    font-size: 5.3vw;
+    line-height: 6.38vw;
+    letter-spacing: 1vw;
+    color: white;
+    padding-left: 2rem;
+
+ }
+ 
+  .img-icon-arrow-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17.64vw;
+    height: 19.4vw;
+    background-color:#D5966C;
+    
+  }
+
+  .arrow-right-black-part{
+   width: 54.4vw;
+   height: 19.4vw;
+   display: flex;
+   align-items: center;
+   background-color: black;
+  
+  }
+
+
+ /* middle part of mobile version */ 
+
+ .image-grid-1-2x-mobile,
+ .image-grid-2-tablet,
+ .image-grid-1-2x-tablet,
+ .image-grid-1-desktop,
+ .image-grid-1-2x-desktop{
+
+    display: none;
+    
+ } 
+ .image-grid-1-mobile{
+  width: 100vw;
+  padding: 5rem 1rem 0 1rem;
+ }
+ .first-part-of-middle{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+ 
+ .second-head{
+    width: 100vw;
+    height: 29.329vw;
+    padding: 2rem 0 0 1rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+    font-size: 16vw;
+    line-height: 14.9vw;
+
+ }
+
+ .first-text-of-middle{
+   width: 91.46vw;
+   height: 29.87vw;
+   padding:5rem 0 0 1rem;
+   font-family:'Outfit', sans-serif;
+   font-size: 4.8vw;
+   font-weight: 300;
+   line-height: 7.47vw;
+   color: #444444;
+
+ }
+
+ /* second-part-of-middle */
+
+ .image-grid-2-2x-mobile,
+ .image-grid-3-2x-mobile,
+ .image-grid-2-tablet,
+ .image-grid-2-2x-tablet,
+ .image-grid-3-tablet,
+ .image-grid-3-2x-tablet,
+ .image-grid-2-desktop,
+ .image-grid-2-2x-desktop,
+ .image-grid-3-desktop,
+ .image-grid-3-2x-desktop {
+
+    display: none;
+
+ }
+ .second-part-of-middle{
+ padding-top: 7rem;
+  
+ }
+
+ .image-grid-2-mobile,
+ .image-grid-3-mobile{
+   width: 100vw;
+   padding:0.5rem 1rem 0 1rem;
+ }
+
+ 
+ .last-second-part-of-middle{
+   height: 78.1vw;
+   margin: 1rem ;
+   background-color: black;
+
+ }
+ /* last-second-part-of-middle */
+ .third-head{
+   font-family: 'Big Shoulders Display', cursive;
+   font-weight: 900;
+   font-size: 14vw;
+   line-height: 13vw;
+   color: white;
+   padding: 3rem 0 0 1.5rem;
+ }
+ .text-second-part-of-middle{
+   width: 91.46vw;
+   height: 29.87vw;
+   color: white;
+   padding: 2rem 0 0 1.5rem;
+   font-family:'Outfit', sans-serif;
+   font-size: 4.8vw;
+   font-weight: 300;
+   line-height: 7.47vw;
+
+ }
+ /* part of button */
+ .button{
+   width: 100vw;
+   height: 89.6vw;
+   background-color: black;
+   margin-top: 5rem;
+ }
+ 
+ .icon-light{
+  margin: 3rem 0 0 2.5rem;
+ }
+ .text-of-button-part{
+   width: 92vw;
+   height: 27.73vw;
+   color: white;
+   padding: 1.5rem 0 0 2.5rem;
+   font-family:'Outfit', sans-serif;
+   font-size: 4.26vw;
+   font-weight: 300;
+   line-height: 7.47vw;
+ }
+ .button-icons{
+  margin: 5rem 0  0 2.5rem;
+ }
+ .icon-instagram,
+ .icon-twitter {
+  margin-left: 5.33vw;
+
+ }
