@@ -1,4 +1,6 @@
 @media screen and (min-width: 572px) {
-    
+    .image-grid-1-2x-mobile{
+        width: 100vw;
+    }
     
 }
