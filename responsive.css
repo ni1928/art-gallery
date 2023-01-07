@@ -1,6 +1,44 @@
+
+/* ---part of mobile 2x ---- */
 @media screen and (min-width: 572px) {
+    
+    .image-hero2x-mobile{
+        width: 100vw;
+        display: flex;
+    }
+
+    .image-hero-mobile{
+        display: none;
+    }
+
     .image-grid-1-2x-mobile{
         width: 100vw;
+        padding: 5rem 1rem 0 1rem;
+        display: block;
     }
+
+    .image-grid-1-mobile{
+        display: none;
+    }
+
+    .image-grid-2-2x-mobile{
+        width: 100vw;
+        padding: 5rem 1rem 0 1rem;
+        display: block; 
+    }
+    .image-grid-2-mobile{
+        display: none;
+    }
+
+    .image-grid-3-2x-mobile{
+        width: 100vw;
+        padding: 1rem 1rem 0 1rem;
+        display: block; 
+    }
+    
+    .image-grid-3-mobile{
+        display: none;
+    }
+    
     
 }
