@@ -12,8 +12,8 @@
     }
 
     .image-grid-1-2x-mobile{
-        width: 100vw;
-        padding: 5rem 1rem 0 1rem;
+        width: 95vw;
+        padding: 5rem 0 0 1rem;
         display: block;
     }
 
@@ -22,8 +22,8 @@
     }
 
     .image-grid-2-2x-mobile{
-        width: 100vw;
-        padding: 5rem 1rem 0 1rem;
+        width: 95vw;
+        padding: 5rem 0.5rem 0 1rem;
         display: block; 
     }
     .image-grid-2-mobile{
@@ -31,8 +31,8 @@
     }
 
     .image-grid-3-2x-mobile{
-        width: 100vw;
-        padding: 1rem 1rem 0 1rem;
+        width: 95vw;
+        padding: 1rem 0.5rem 0 1rem;
         display: block; 
     }
     
@@ -47,9 +47,15 @@
 
 @media screen and (min-width: 768px) {
     /* --- top part of tablet ---- */
+   
+    .top-section{
+        width: 100vw;
+        height: 100vw;
+    }
     .photo-part-of{
-        width: 50vw;
+        width: 100vw;
         display: flex;
+        justify-content: center;
         flex-direction: row;
 
     }
@@ -76,9 +82,9 @@
         margin: 5rem 1rem 0 -4rem;
     }
     .text-of-top{
-        width: 61vw;
+        width: 55vw;
         height: 14vw;
-        font-size: 3vw;
+        font-size: 2.6vw;
         line-height: 4vw ;
         margin: 1rem 1rem 0 -4rem;
         padding-right: 1rem;
@@ -101,24 +107,142 @@
     }
 
      /* --- middle part of tablet ---- */
-     .image-grid-2-tablet{
+     .middle-section{
+        width: 100vw;
+     }
+     .first-part-of-middle{
+        width: 100vw;
+        display: flex;
+        flex-direction: row-reverse;
+       
+     }
+     .image-grid-1-tablet{
+        width: 50vw;
+        height: 50vw;
         display: block;
-
+        justify-content: center;
+        align-items: center;
+        margin: 6rem  2rem 0 0;
        
      }
      .image-grid-1-mobile,
      .image-grid-1-2x-mobile{
         display: none;
      }
-     .first-part-of-middle-1{
-        display: flex;
-        flex-direction: row;
-     }
-     .image-grid-2-tablet{
-        order: 2;
-     }
+
+     
      .middle-page-first-part{
-        order: 1;
+        width: 50vw;
      }
     
+    .second-head{
+        width: 50vw;
+        font-size: 8vw;
+        line-height: 7vw;
+        padding: 7rem 0rem 1rem 4rem;
+    }
+    .first-text-of-middle{
+        width: 50vw;
+        font-size: 3vw;
+        line-height: 4vw;
+        padding: 5rem 2rem 1rem 4rem;
+    }
+
+    /* --- second middle part of tablet ---- */
+     .image-grid-2-tablet,
+     .image-grid-3-tablet{
+        display: block;
+     }
+    
+    .image-grid-2-mobile,
+    .image-grid-2-2x-mobile,
+    .image-grid-3-mobile,
+    .image-grid-3-2x-mobile{
+        display: none;
+    }
+   
+
+    .second-part-of-middle{
+        margin-top: 5rem;
+        padding-left: 1rem;
+        width: 100vw;
+        height: 70vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .image-grid-2-tablet{ 
+        width: 50vw;
+        height: 100vw;
+        padding-bottom: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        
+    }
+
+    
+    .third-head{
+        font-size: 6vw;
+        line-height: 6vw;
+    }
+   
+    .text-second-part-of-middle{
+        width: 29vw;
+        height: 15vw;
+        font-size: 3vw;
+        line-height: 3.64vw; 
+    }
+    .image-grid-3-tablet{
+        width: 40vw; 
+        height: 45vw;
+        margin: auto;
+    
+    }
+
+    .last-second-part-of-middle{
+        width: 40vw;
+        height: 52vw;
+    }
+    /* button */
+
+    .button{
+      width: 100vw;
+      height: 20vw;
+      margin-top: 15rem;
+    }
+    .button-part{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .icon-light{
+        margin: 3rem 0 0 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-of-button-part{
+        width: 37vw;
+        height: 14vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8vw;
+        line-height: 3vw;
+        margin-top: 2rem;
+      }
+    .button-icons{
+        display: flex;
+        margin: 3rem 2rem 0 13rem;
+    }
+    .icon-instagram,
+    .icon-twitter {
+     margin-left: 3vw;
+   
+    }
+    
 }
+
