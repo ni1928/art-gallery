@@ -41,6 +41,7 @@
 
     .top-part-of-middle{
         display: flex;
+        flex-direction: ROW;
         height: 70vw;
     }
 
@@ -48,6 +49,7 @@
         width: 30vw;
         font-size:7vw;
         line-height: 6vw;
+        margin: 3rem 0  0 3rem;
 
      
     
