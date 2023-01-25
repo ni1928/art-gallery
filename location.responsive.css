@@ -1,6 +1,8 @@
 /* ---part of mobile 2x ---- */
 @media screen and (min-width: 572px) {
-
+    body{
+     
+    }
     .second-page-photo-of-mobile2x{
 
         width: 100vw;
@@ -12,3 +14,96 @@
     }
     
 }
+@media screen and (min-width: 768px) {
+    .second-page-photo-of-mobile2x{
+        display: none;
+    }
+
+    .second-page-photo-of-tablet{
+        width: 100vw;
+        display: block;
+    }
+    .icon-arrow-left{
+        margin-left: 5vw;
+        width: 34vw;
+    }
+    .img-icon-arrow-left,
+    .arrow-left-black-part{
+        height: 9vw;
+       
+    }
+    .h1-arrow-left-black-part{
+        letter-spacing: 0.5vw;
+        font-size: 2.5vw;
+    }
+    
+    /* middle*/
+
+    .top-part-of-middle{
+        display: flex;
+        height: 70vw;
+    }
+
+    .header-of-second-page-middle{
+        width: 30vw;
+        font-size:7vw;
+        line-height: 6vw;
+
+     
+    
+    }
+    .text-of-second-page-middle2{
+        
+        font-size: 2.2vw;
+        line-height: 3vw;
+    }
+
+    
+    .text-of-second-page-middle3{
+        width: 54vw;
+        height: 45vw;
+        font-size: 2.2vw;
+        line-height: 3vw;
+    } 
+   
+
+    /* button */
+
+    .button{
+        width: 100vw;
+        height: 31vw;
+    
+      }
+      .button-part{
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+      }
+      .icon-dark{
+          margin: 3rem 0 0 4rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .text-of-button-part{
+          width: 37vw;
+          height: 14vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.8vw;
+          line-height: 3vw;
+          margin-top: 2rem;
+        }
+      .button-icons{
+          display: flex;
+          margin: 3rem 2rem 0 13rem;
+      }
+      .icon-instagram,
+      .icon-twitter {
+       margin-left: 3vw;
+     
+      }
+       
+     
+}  

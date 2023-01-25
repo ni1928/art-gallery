@@ -67,12 +67,13 @@
 
   /*---middle section of second page---*/
 
-  .middle-section{
-   width: 100vw;
-   height: 130vw;
-   background-color: black;
-
- }
+  .top-part-of-middle{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 130vw;
+    background-color: black;
+  }
  .header-of-second-page-middle,
  .text-of-second-page-middle2,
  .text-of-second-page-middle3{
@@ -88,6 +89,7 @@
    color: white;
    padding: 3rem 0 0 1rem;
  }
+
  .text-of-second-page-middle{
    width: 91.46vw;
    height: 14.4vw;

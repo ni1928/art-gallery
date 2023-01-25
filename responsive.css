@@ -7,40 +7,22 @@
         display: flex;
     }
 
-    .image-hero-mobile{
-        display: none;
-    }
-
-    .image-grid-1-2x-mobile{
-        width: 95vw;
-        padding: 5rem 0 0 1rem;
-        display: block;
-    }
-
-    .image-grid-1-mobile{
-        display: none;
-    }
-
-    .image-grid-2-2x-mobile{
-        width: 95vw;
-        padding: 5rem 0.5rem 0 1rem;
-        display: block; 
-    }
-    .image-grid-2-mobile{
-        display: none;
-    }
-
-    .image-grid-3-2x-mobile{
-        width: 95vw;
-        padding: 1rem 0.5rem 0 1rem;
-        display: block; 
-    }
-    
+    .image-hero-mobile,
+    .image-grid-1-mobile,
+    .image-grid-2-mobile,
     .image-grid-3-mobile{
         display: none;
     }
-    
-    
+
+    .image-grid-1-2x-mobile,
+    .image-grid-2-2x-mobile,
+    .image-grid-3-2x-mobile{
+        width: 100vw;
+        padding: 5rem 1rem 0 1rem;
+        display: block;
+    }
+
+   
 }
 
 /* ---part of tablet ---- */
@@ -49,16 +31,14 @@
     /* --- top part of tablet ---- */
    
    
-    .photo-part-of{
-        width: 100vw;
+    .top-section{
         display: flex;
-        justify-content: center;
         flex-direction: row;
 
     }
     .image-hero-tablet{
-        width: 50vw;
-        height: 91.14vw;
+        width: 45vw;
+        height: 80vw;
         display: block;
     }
 
@@ -68,44 +48,62 @@
     
     .white-part-of-header{
         width: 50vw;
+        height: 90vw;
         margin-right: 2rem;
     }
-    
+    .div-white-part-of-header{
+        width: 50vw;
+        height: 90vw;
+    }
     .head-of-mobile-version{
         width: 50vw;
         height: 16.93vw;
         font-size: 9.12vw;
         line-height:8.46vw ;
-        margin: 5rem 1rem 0 -4rem;
+       
     }
     .text-of-top{
         width: 55vw;
         height: 14vw;
         font-size: 2.6vw;
         line-height: 4vw ;
-        margin: 1rem 1rem 0 -4rem;
+        
         padding-right: 1rem;
     }
+    .white-part-of-header{
+        margin: 8rem 1rem 0 -4rem;
+    }
+    
     
     .arrow-right-black-part,
     .img-icon-arrow-right{
         height: 15vw;
         font-size: 3vw;
     }
+    
+    
     .icon-arrow-right{
-        width: 60vw;
-        margin: 7rem 1rem 0 -3.5rem;
-        padding-right: 5rem;
+        width: 34vw;
+        
        
     }
-
-    .h1-arrow-right-black-part{
-        font-size: 3vw;
+    .img-icon-arrow-right,
+    .arrow-right-black-part{
+      height: 9vw;
+       
     }
+    .h1-arrow-right-black-part{
+        letter-spacing: 0.5vw;
+        font-size: 2.5vw;
+    }
+   
+
+   
 
      /* --- middle part of tablet ---- */
      .middle-section{
         width: 100vw;
+        
      }
      .first-part-of-middle{
         width: 100vw;
@@ -115,7 +113,7 @@
      }
      .image-grid-1-tablet{
         width: 50vw;
-        height: 50vw;
+        height: 45vw;
         display: block;
         justify-content: center;
         align-items: center;
@@ -163,13 +161,14 @@
         margin-top: 5rem;
         padding-left: 1rem;
         width: 100vw;
-        height: 70vw;
+        height: 80vw;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         
     }
+
     .image-grid-2-tablet{ 
         width: 50vw;
         height: 100vw;
@@ -194,14 +193,14 @@
     }
     .image-grid-3-tablet{
         width: 40vw; 
-        height: 45vw;
+        height: 44vw;
         margin: auto;
     
     }
 
     .last-second-part-of-middle{
         width: 40vw;
-        height: 52vw;
+        height: 54vw;
     }
     /* button */
 
