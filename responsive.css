@@ -115,10 +115,10 @@
      .image-grid-1-tablet{
         width: 50vw;
         height: 45vw;
-        display: block;
+        display:flex;
         justify-content: center;
         align-items: center;
-        margin: 6rem  2rem 0 0;
+        margin: 6rem  3rem 0 0;
        
      }
      .image-grid-1-mobile,
@@ -132,7 +132,7 @@
      }
     
     .second-head{
-        width: 50vw;
+        width: 40vw;
         font-size: 8vw;
         line-height: 7vw;
         padding: 7rem 0rem 1rem 4rem;
@@ -195,7 +195,7 @@
     .image-grid-3-tablet{
         width: 40vw; 
         height: 44vw;
-        margin: auto;
+        margin: 1rem auto auto auto;
     
     }
 
@@ -243,3 +243,188 @@
     
 }
 
+/* ---part of tablet 2x ---- */
+@media screen and (min-width: 1104px) {
+    .image-hero-tablet,
+    .image-grid-1-tablet,
+    .image-grid-2-tablet,
+    .image-grid-3-tablet
+    {
+        display: none;
+    }
+    .image-hero2x-tablet{
+        display: block;
+        width: 45vw;
+
+    }
+    .image-grid-1-2x-tablet{
+        display: block;
+        width: 46vw;
+        margin: 6rem  3rem 0 0;
+
+    }
+    .image-grid-2-2x-tablet{
+        display: block;
+        width: 45vw;
+        height:89vw;
+        margin-bottom: -1rem;
+      
+
+    }
+    .image-grid-3-2x-tablet
+    {
+        display: block;
+        width: 45vw; 
+        margin:  2rem 0 0 1rem;
+    }
+
+    .last-second-part-of-middle{
+        width: 45vw;
+        height: 38vw;
+    }
+
+}
+/* ---part of top desktop ---- */
+ @media screen and (min-width: 1440px){
+    .image-hero2x-tablet{
+        display: none;
+    }
+    .image-hero-desktop{
+        display: block;
+        width: 40vw;
+        height: 60vw;
+    }
+    .div_top_black_part{
+        width: 32vw;
+        height: 60vw;
+        background-color: black;
+    }
+    .div-white-part-of-header{
+        width: 20vw;
+    }
+    .white-part-of-header{
+        width: 15vw;
+    }
+    .head-of-mobile-version{
+    
+      margin: 11rem 0 0 -51.5rem;
+      mix-blend-mode: difference;
+      color: white;
+      font-size: 7vw;
+
+    }
+    .text-of-top{
+      width: 31vw;
+      margin-top: -17vw;
+      font-size: 1.8vw;
+      line-height: 2.5vw;
+    }
+    .top_part_connect_main_page:hover .arrow-right-black-part{
+        background-color:#d5966c;
+    }
+    .top_part_connect_main_page:hover .img-icon-arrow-right{
+        background-color:black;
+    }
+
+
+    .icon-arrow-right{
+        width: 25vw;
+        height: 7vw;
+    }
+    .arrow-right-black-part{
+        width: 20vw;
+        height: 7vw;
+    }
+    .img-icon-arrow-right{
+        width: 6vw;
+        height: 7vw;
+    }
+    .h1-arrow-right-black-part{
+        line-height: 2.5vw;
+        font-size: 2vw;
+    }
+
+    /* ---part of middle desktop ---- */
+    .first-part-of-middle{
+        margin: -5rem 10rem 0 0;
+    }
+    .image-grid-1-2x-tablet,
+    .image-grid-2-2x-tablet,
+    .image-grid-3-2x-tablet{
+     display: none;
+    }
+    .image-grid-1-desktop,
+    .image-grid-2-desktop,
+    .image-grid-3-desktop{
+        display: block;
+    }
+    .image-grid-1-desktop{
+        width: 45vw;
+  
+    }
+    .middle-page-first-part{
+        margin-left: 10rem;
+        height: 28vw;
+    }
+    .second-head{
+        width: 27vw;
+        font-size: 4vw;
+        line-height: 4vw;
+        margin: -3rem 0 0 3rem;
+    }
+    .first-text-of-middle{
+        width: 27vw;
+        font-size:1.3vw;
+        line-height: 2.2vw;
+        margin: -15rem 10rem 0 3rem;
+    }
+
+     /* --- second part of middle desktop ---- */
+      
+     .second-part-of-middle{
+        width: 50vw;
+        margin: -15rem 8rem 0 14rem;
+     }
+      .div-second-part-of-grid{
+        margin-top: 1rem;
+      }
+     
+     .image-grid-2-desktop{
+        width: 49.5vw;
+        height: 50vw;
+     }
+     .image-grid-3-desktop{
+        width: 31vw;
+        height: 21vw;
+        margin-left: 2rem;
+     }
+     .last-second-part-of-middle{
+        width: 31vw;
+        height: 28vw;
+        margin-left: 2rem;
+     }
+    .third-head{
+        font-size: 4.15vw;
+        line-height: 4vw;
+    }
+    .text-second-part-of-middle{
+        width: 27vw;
+        font-size: 1.6vw;
+        line-height: 2.5vw;
+    }
+
+    /* --- button of  desktop ---- */
+    .icon-light{
+       width: 15vw;
+       margin: 7rem  0 0 15rem;
+       }
+    .text-of-button-part{
+        width: 29.5vw;
+        font-size: 1rem;
+        line-height: 1.8rem;
+        margin: 2rem 0 0 5rem;
+    }
+    .button-icons{
+        margin-top: 7rem;
+    }
+} 
