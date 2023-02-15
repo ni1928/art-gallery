@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
  body{
         font-family:  'Outfit', sans-serif;
         width: 100vw;
@@ -24,7 +25,6 @@
       
 }
  
-
  .image-hero-mobile{
     width: 100vw;
     height: 64vw;
@@ -54,12 +54,12 @@
  .image-grid-1-mobile{
     padding-top: 5rem;
  }
+
  .icon-arrow-right{
     display: flex;
     margin: 4rem 2rem 1rem 1rem;
-    
-  
  }
+
  .h1-arrow-right-black-part{
   
     font-family: 'Big Shoulders Display', cursive;
@@ -104,22 +104,24 @@
     
  } 
  
-
  .middle-section{
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
   }
+
  .image-grid-1-mobile{
   width: 100vw;
   padding: 5rem 1rem 0 1rem;
   order: 1;
  }
+
   .middle-page-first-part{
    order: 2;
 
 }
+
  .second-head{
     width: 75vw;
     height: 29.329vw;
@@ -159,12 +161,12 @@
     display: none;
 
  }
+
  .second-part-of-middle{
  padding-top: 7rem;
   
  }
  
-
  .image-grid-2-mobile,
  .image-grid-3-mobile{
    width: 100vw;
@@ -172,12 +174,14 @@
  }
 
  /* last-second-part-of-middle */
+
  .last-second-part-of-middle{
    height: 78.1vw;
    margin: 1rem ;
    background-color: black;
 
  }
+
  .third-head{
    font-family: 'Big Shoulders Display', cursive;
    font-weight: 900;
@@ -186,6 +190,7 @@
    color: white;
    padding: 3rem 0 0 1.5rem;
  }
+
  .text-second-part-of-middle{
    width: 91.46vw;
    height: 29.87vw;
@@ -198,6 +203,7 @@
 
  }
  /* part of button */
+
  .button{
    width: 100vw;
    max-height: 89.6vw;
@@ -209,6 +215,7 @@
  .icon-light{
   margin: 3rem 0 0 2.5rem;
  }
+
  .text-of-button-part{
    width: 92vw;
    height: 27.73vw;
@@ -219,9 +226,11 @@
    font-weight: 300;
    line-height: 7.47vw;
  }
+
  .button-icons{
   margin: 5rem 0  0 2.5rem;
  }
+ 
  .icon-instagram,
  .icon-twitter {
   margin-left: 5.33vw;
