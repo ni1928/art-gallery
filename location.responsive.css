@@ -185,5 +185,16 @@
          }
 
      }
+      /* ---part of desktop 2x ---- */
+ @media screen and (min-width: 1770px){
+    .second-page-photo-of-desktop{
+        display: none;
+    }
+    .second-page-photo-of-desktop2x{
+        display: block;
+        width: 100vw;
+    }
+    
+ }
 
    

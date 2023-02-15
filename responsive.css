@@ -428,3 +428,54 @@
         margin-top: 7rem;
     }
 } 
+ /* ---part of desktop 2x ---- */
+ @media screen and (min-width: 1770px){
+    .image-hero-desktop{
+        display: none;
+    }
+    .image-hero2x-desktop{
+        display: block;
+        width: 40vw;
+        height: 60vw;
+    }
+
+    .head-of-mobile-version{
+        margin-left: -58.5vw;
+    }
+
+    .image-grid-1-desktop{
+        display: none;
+    }
+
+    .image-grid-1-2x-desktop{
+        display: block;
+        width: 41vw;
+        margin-right: 2vw;
+    }
+
+    .image-grid-2-desktop{
+       display: none;
+    }
+    .image-grid-2-2x-desktop{
+      display: block;
+      width: 47vw;
+      margin-left: -3vw;
+    }
+    .image-grid-3-desktop{
+        display: none;
+     }
+    .image-grid-3-2x-desktop{
+        display: block;
+        width: 35vw;
+        margin-left: 1.7vw;
+    }
+    .last-second-part-of-middle{
+        width: 35vw;
+    }
+    .third-head{
+        width: 20vw;
+    }
+    .text-second-part-of-middle{
+        width: 27vw;
+    }
+ }
