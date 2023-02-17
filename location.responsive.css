@@ -1,214 +1,202 @@
 /* ---part of mobile 2x ---- */
 @media screen and (min-width: 572px) {
-    .second-page-photo-of-mobile2x{
+  .second-page-photo-of-mobile2x {
+    width: 100vw;
+    display: block;
+  }
 
-        width: 100vw;
-        display: block;
-    }
-   
-    .second-page-photo-of-mobile{
-        display: none;
-    }
-    
+  .second-page-photo-of-mobile {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
-    .second-page-photo-of-mobile2x{
-        display: none;
-    }
+  .second-page-photo-of-mobile2x {
+    display: none;
+  }
 
-    .second-page-photo-of-tablet{
-        width: 100vw;
-        display: block;
-    }
-    .icon-arrow-left{
-        margin-left: 5vw;
-        width: 34vw;
-    }
-    .img-icon-arrow-left,
-    .arrow-left-black-part{
-        height: 9vw;
-       
-    }
-    .h1-arrow-left-black-part{
-        letter-spacing: 0.5vw;
-        font-size: 2.5vw;
-    }
-    
-    /* middle*/
+  .second-page-photo-of-tablet {
+    width: 100vw;
+    display: block;
+  }
+  .icon-arrow-left {
+    margin-left: 5vw;
+    width: 34vw;
+  }
+  .img-icon-arrow-left,
+  .arrow-left-black-part {
+    height: 9vw;
+  }
+  .h1-arrow-left-black-part {
+    letter-spacing: 0.5vw;
+    font-size: 2.5vw;
+  }
 
-    .top-part-of-middle{
-        display: flex;
-        flex-direction: ROW;
-        height: 70vw;
-    }
+  /* middle*/
 
-    .header-of-second-page-middle{
-        width: 30vw;
-        font-size:7vw;
-        line-height: 6vw;
-        margin: 3rem 0  0 3rem;
-    }
+  .top-part-of-middle {
+    display: flex;
+    flex-direction: ROW;
+    height: 70vw;
+  }
 
-    .text-of-second-page-middle2{
-        
-        font-size: 2.2vw;
-        line-height: 3vw;
-    }
+  .header-of-second-page-middle {
+    width: 30vw;
+    font-size: 7vw;
+    line-height: 6vw;
+    margin: 3rem 0 0 3rem;
+  }
 
-    .text-of-second-page-middle3{
-        width: 54vw;
-        height: 45vw;
-        font-size: 2.2vw;
-        line-height: 3vw;
-    } 
-   
+  .text-of-second-page-middle2 {
+    font-size: 2.2vw;
+    line-height: 3vw;
+  }
 
-    /* button */
+  .text-of-second-page-middle3 {
+    width: 54vw;
+    height: 45vw;
+    font-size: 2.2vw;
+    line-height: 3vw;
+  }
 
-    .button{
-        width: 100vw;
-        height: 31vw;
-     }
+  /* button */
 
-      .button-part{
-          display: flex;
-          flex-direction: row;
-          align-items: flex-start;
-      }
+  .button {
+    width: 100vw;
+    height: 31vw;
+  }
 
-      .icon-dark{
-          margin: 4rem 0 0 7rem;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-      }
+  .button-part {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
 
-      .text-of-button-part{
-          width: 33vw;
-          height: 14vw;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: 1.7vw;
-          line-height: 3vw;
-          margin: 3rem 0 0 3rem;
-        }
+  .icon-dark {
+    margin: 4rem 0 0 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-      .button-icons{
-          display: flex;
-          margin: 3rem 2rem 0 13rem;
-      }
+  .text-of-button-part {
+    width: 33vw;
+    height: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7vw;
+    line-height: 3vw;
+    margin: 3rem 0 0 3rem;
+  }
 
-      .icon-instagram,
-      .icon-twitter {
-         margin-left: 3vw;
-     
-      }
-} 
-      
-     /* ---part of tablet 2x ---- */
-     @media screen and (min-width: 1104px){
-        .second-page-photo-of-tablet{
-            display: none;
-        } 
+  .button-icons {
+    display: flex;
+    margin: 3rem 2rem 0 13rem;
+  }
 
-        .second-page-photo-of-tablet2x{
-            display: block;
-            width: 100vw;
-        }
+  .icon-instagram,
+  .icon-twitter {
+    margin-left: 3vw;
+  }
+}
 
-        .middle-section{
-            width: 100vw;
-            height: 50vw;
-        }
+/* ---part of tablet 2x ---- */
+@media screen and (min-width: 1104px) {
+  .second-page-photo-of-tablet {
+    display: none;
+  }
 
-        .button{
-            height:25vw;
-        }
-     } 
-      /* ---part of top desktop ---- */
-     @media screen and (min-width: 1440px){
-        .second-page-photo-of-tablet2x{
-           display: none;
-        }
+  .second-page-photo-of-tablet2x {
+    display: block;
+    width: 100vw;
+  }
 
-        .second-page-photo-of-desktop{
-            width: 100vw;
-            height: 50vw;
-            display: block;
+  .middle-section {
+    width: 100vw;
+    height: 50vw;
+  }
 
-        }
+  .button {
+    height: 25vw;
+  }
+}
+/* ---part of top desktop ---- */
+@media screen and (min-width: 1440px) {
+  .second-page-photo-of-tablet2x {
+    display: none;
+  }
 
-        .top_part_connect_main_page:hover .arrow-left-black-part{
-            background-color:#d5966c;
-        }
+  .second-page-photo-of-desktop {
+    width: 100vw;
+    height: 50vw;
+    display: block;
+  }
 
-        .top_part_connect_main_page:hover .img-icon-arrow-left{
-            background-color:black;
-        }
+  .top_part_connect_main_page:hover .arrow-left-black-part {
+    background-color: #d5966c;
+  }
 
-        /* ---part of middle desktop ---- */
-        .middle-section{
-            height: 45vw;
-        }
+  .top_part_connect_main_page:hover .img-icon-arrow-left {
+    background-color: black;
+  }
 
-        .top-part-of-middle{
-            width: 100vw;
-        }
+  /* ---part of middle desktop ---- */
+  .middle-section {
+    height: 50vw;
+  }
 
-        .header-of-second-page-middle{
-            width: 20vw;
-            margin: 5rem 0 0 15rem;
-            font-size: 4.8vw;
-            line-height: 4rem;
-        }
+  .top-part-of-middle {
+    width: 100vw;
+  }
 
-        .text-of-second-page-right{
-            margin-left: 20rem;
-        }
+  .header-of-second-page-middle {
+    width: 20vw;
+    margin: 5rem 0 0 15rem;
+    font-size: 4.8vw;
+    line-height: 4rem;
+  }
 
-        .text-of-second-page-middle{
-              width:30vw ;
-              font-size: 2rem;
-        }
+  .text-of-second-page-right {
+    margin-left: 20rem;
+  }
 
-        .text-of-second-page-middle2,
-        .text-of-second-page-middle3{
-            width: 36vw;
-            font-size: 1.4rem;
-            line-height: 2rem;
-        }
+  .text-of-second-page-middle {
+    width: 30vw;
+    font-size: 2rem;
+  }
 
-         /* --- button of  desktop ---- */
-         .icon-dark{
-            width: 15vw;
-            margin: 7rem  0 0 15rem;
-            }
+  .text-of-second-page-middle2,
+  .text-of-second-page-middle3 {
+    width: 36vw;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
 
-         .text-of-button-part{
-             width: 29.5vw;
-             font-size: 1rem;
-             line-height: 1.8rem;
-             margin: 2rem 0 0 5rem;
-         }
+  /* --- button of  desktop ---- */
+  .icon-dark {
+    width: 15vw;
+    margin: 7rem 0 0 15rem;
+  }
 
-         .button-icons{
-             margin-top: 7rem;
-         }
+  .text-of-button-part {
+    width: 29.5vw;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin: 2rem 0 0 5rem;
+  }
 
-     }
-      /* ---part of desktop 2x ---- */
- @media screen and (min-width: 1770px){
-    
-    .second-page-photo-of-desktop{
-        display: none;
-    }
+  .button-icons {
+    margin-top: 7rem;
+  }
+}
+/* ---part of desktop 2x ---- */
+@media screen and (min-width: 1770px) {
+  .second-page-photo-of-desktop {
+    display: none;
+  }
 
-    .second-page-photo-of-desktop2x{
-        display: block;
-        width: 100vw;
-    }
-    
- }
-
-   
+  .second-page-photo-of-desktop2x {
+    display: block;
+    width: 100vw;
+  }
+}

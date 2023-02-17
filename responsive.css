@@ -1,514 +1,510 @@
-
 /* ---part of mobile 2x ---- */
 @media screen and (min-width: 572px) {
-    
-    .image-hero2x-mobile{
-        width: 100vw;
-        display: flex;
-    }
+  .image-hero2x-mobile {
+    width: 100vw;
+    display: flex;
+  }
 
-    .image-hero-mobile,
-    .image-grid-1-mobile,
-    .image-grid-2-mobile,
-    .image-grid-3-mobile{
-        display: none;
-    }
+  .image-hero-mobile,
+  .image-grid-1-mobile,
+  .image-grid-2-mobile,
+  .image-grid-3-mobile {
+    display: none;
+  }
 
-    .image-grid-1-2x-mobile,
-    .image-grid-2-2x-mobile,
-    .image-grid-3-2x-mobile{
-        width: 100vw;
-        padding: 5rem 1rem 0 1rem;
-        display: block;
-    }
-
-   
+  .image-grid-1-2x-mobile,
+  .image-grid-2-2x-mobile,
+  .image-grid-3-2x-mobile {
+    width: 100vw;
+    padding: 5rem 1rem 0 1rem;
+    display: block;
+  }
 }
 
 /* ---part of tablet ---- */
 
 @media screen and (min-width: 768px) {
-    /* --- top part of tablet ---- */
-   
-   
-    .top-section{
-        display: flex;
-        flex-direction: row;
-        height: 80vw;
+  /* --- top part of tablet ---- */
 
-    }
+  .top-section {
+    display: flex;
+    flex-direction: row;
+    height: 80vw;
+  }
 
-    .image-hero-tablet{
-        width: 45vw;
-        height: 80vw;
-        display: block;
-    }
+  .image-hero-tablet {
+    width: 45vw;
+    height: 80vw;
+    display: block;
+  }
 
-    .image-hero2x-mobile{
-        display: none;
-    }
-    
-    .white-part-of-header{
-        width: 50vw;
-        height: 90vw;
-        margin-right: 2rem;
-    }
+  .image-hero2x-mobile {
+    display: none;
+  }
 
-    .div-white-part-of-header{
-        width: 50vw;
-        height: 90vw;
-    }
+  .white-part-of-header {
+    width: 50vw;
+    height: 90vw;
+    margin-right: 2rem;
+  }
 
-    .head-of-mobile-version{
-        width: 50vw;
-        height: 16.93vw;
-        font-size: 9.12vw;
-        line-height:8.46vw ;
-    }
+  .div-white-part-of-header {
+    width: 50vw;
+    height: 90vw;
+  }
 
-    .text-of-top{
-        width: 55vw;
-        height: 14vw;
-        font-size: 2.6vw;
-        line-height: 4vw ;
-        
-        padding-right: 1rem;
-    }
+  .head-of-mobile-version {
+    width: 50vw;
+    height: 16.93vw;
+    font-size: 9.12vw;
+    line-height: 8.46vw;
+  }
 
-    .white-part-of-header{
-        margin: 7rem 1rem 0 -4rem;
-    }
-    
-    .arrow-right-black-part,
-    .img-icon-arrow-right{
-        height: 15vw;
-        font-size: 3vw;
-    }
-    
-    .icon-arrow-right{
-        width: 34vw;
-    }
+  .text-of-top {
+    width: 55vw;
+    height: 14vw;
+    font-size: 2.6vw;
+    line-height: 4vw;
 
-    .img-icon-arrow-right,
-    .arrow-right-black-part{
-      height: 9vw;
-    }
+    padding-right: 1rem;
+  }
 
-    .h1-arrow-right-black-part{
-        letter-spacing: 0.5vw;
-        font-size: 2.5vw;
-    }
-   
-     /* --- middle part of tablet ---- */
-     .middle-section{
-        width: 100vw;
-     }
+  .white-part-of-header {
+    margin: 7rem 1rem 0 -4rem;
+  }
 
-     .first-part-of-middle{
-        width: 100vw;
-        display: flex;
-        flex-direction: row-reverse;
-    }
+  .arrow-right-black-part,
+  .img-icon-arrow-right {
+    height: 15vw;
+    font-size: 3vw;
+  }
 
-     .image-grid-1-tablet{
-        width: 50vw;
-        height: 45vw;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        margin: 6rem  3rem 0 0;
-       
-     }
+  .icon-arrow-right {
+    width: 34vw;
+  }
 
-     .image-grid-1-mobile,
-     .image-grid-1-2x-mobile{
-        display: none;
-     }
+  .img-icon-arrow-right,
+  .arrow-right-black-part {
+    height: 9vw;
+  }
 
-    .middle-page-first-part{
-        width: 50vw;
-     }
-    
-    .second-head{
-        width: 40vw;
-        font-size: 8vw;
-        line-height: 7vw;
-        padding: 7rem 0rem 1rem 4rem;
-    }
+  .h1-arrow-right-black-part {
+    letter-spacing: 0.5vw;
+    font-size: 2.5vw;
+  }
 
-    .first-text-of-middle{
-        width: 50vw;
-        font-size: 3vw;
-        line-height: 4vw;
-        padding: 5rem 2rem 1rem 4rem;
-    }
+  /* --- middle part of tablet ---- */
+  .middle-section {
+    width: 100vw;
+  }
 
-    /* --- second middle part of tablet ---- */
-     .image-grid-2-tablet,
-     .image-grid-3-tablet{
-        display: block;
-     }
-    
-    .image-grid-2-mobile,
-    .image-grid-2-2x-mobile,
-    .image-grid-3-mobile,
-    .image-grid-3-2x-mobile{
-        display: none;
-    }
+  .first-part-of-middle {
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
-    .second-part-of-middle{
-        margin-top: 5rem;
-        padding-left: 1rem;
-        width: 100vw;
-        height: 80vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        
-    }
+  .image-grid-1-tablet {
+    width: 50vw;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 3rem 0 0;
+  }
 
-    .image-grid-2-tablet{ 
-        width: 50vw;
-        height: 100vw;
-        padding-bottom: 0.5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        
-    }
+  .image-grid-1-mobile,
+  .image-grid-1-2x-mobile {
+    display: none;
+  }
 
-    .third-head{
-        font-size: 6vw;
-        line-height: 6vw;
-    }
-   
-    .text-second-part-of-middle{
-        width: 29vw;
-        height: 15vw;
-        font-size: 3vw;
-        line-height: 3.64vw; 
-    }
+  .middle-page-first-part {
+    width: 50vw;
+  }
 
-    .image-grid-3-tablet{
-        width: 40vw; 
-        height: 44vw;
-        margin: 1rem auto auto auto;
-    
-    }
+  .second-head {
+    width: 40vw;
+    font-size: 8vw;
+    line-height: 7vw;
+    padding: 7rem 0rem 1rem 4rem;
+  }
 
-    .last-second-part-of-middle{
-        width: 40vw;
-        height: 54vw;
-    }
-    /* button */
+  .first-text-of-middle {
+    width: 50vw;
+    font-size: 3vw;
+    line-height: 4vw;
+    padding: 5rem 2rem 1rem 4rem;
+  }
 
-    .button{
-      width: 100vw;
-      height: 20vw;
-      margin-top: 15rem;
-    }
+  /* --- second middle part of tablet ---- */
+  .image-grid-2-tablet,
+  .image-grid-3-tablet {
+    display: block;
+  }
 
-    .button-part{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
+  .image-grid-2-mobile,
+  .image-grid-2-2x-mobile,
+  .image-grid-3-mobile,
+  .image-grid-3-2x-mobile {
+    display: none;
+  }
 
-    .icon-light{
-        margin: 3rem 0 0 4rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .text-of-button-part{
-        width: 37vw;
-        height: 14vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.8vw;
-        line-height: 3vw;
-        margin-top: 2rem;
-    }
+  .second-part-of-middle {
+    margin-top: 5rem;
+    padding-left: 1rem;
+    width: 100vw;
+    height: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .button-icons{
-        display: flex;
-        margin: 3rem 2rem 0 13rem;
-    }
+  .image-grid-2-tablet {
+    width: 50vw;
+    height: 100vw;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 
-    .icon-instagram,
-    .icon-twitter {
-     margin-left: 3vw;
-   
-    }
-    
+  .third-head {
+    font-size: 6vw;
+    line-height: 6vw;
+    margin-left: 2rem;
+  }
+
+  .text-second-part-of-middle {
+    width: 34vw;
+    height: 15vw;
+    font-size: 2.5vw;
+    line-height: 3.64vw;
+    margin-left: 2rem;
+  }
+
+  .image-grid-3-tablet {
+    width: 40vw;
+    height: 44vw;
+    margin: 1rem auto auto auto;
+  }
+
+  .last-second-part-of-middle {
+    width: 40vw;
+    height: 54vw;
+  }
+  /* button */
+
+  .button {
+    width: 100vw;
+    height: 20vw;
+    margin-top: 15rem;
+  }
+
+  .button-part {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .icon-light {
+    margin: 3rem 0 0 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-of-button-part {
+    width: 37vw;
+    height: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vw;
+    line-height: 3vw;
+    margin-top: 2rem;
+  }
+
+  .button-icons {
+    display: flex;
+    margin: 3rem 2rem 0 13rem;
+  }
+
+  .icon-instagram,
+  .icon-twitter {
+    margin-left: 3vw;
+  }
 }
 
 /* ---part of tablet 2x ---- */
 @media screen and (min-width: 1104px) {
-    .image-hero-tablet,
-    .image-grid-1-tablet,
-    .image-grid-2-tablet,
-    .image-grid-3-tablet
-    {
-        display: none;
-    }
+  .image-hero-tablet,
+  .image-grid-1-tablet,
+  .image-grid-2-tablet,
+  .image-grid-3-tablet {
+    display: none;
+  }
 
-    .image-hero2x-tablet{
-        display: block;
-        width: 45vw;
+  .image-hero2x-tablet {
+    display: block;
+    width: 45vw;
+  }
+  .image-grid-1-2x-tablet {
+    display: block;
+    width: 46vw;
+    margin: 6rem 3rem 0 0;
+  }
 
-    }
-    .image-grid-1-2x-tablet{
-        display: block;
-        width: 46vw;
-        margin: 6rem  3rem 0 0;
+  .image-grid-2-2x-tablet {
+    display: block;
+    width: 45vw;
+    height: 89vw;
+    margin-bottom: -1rem;
+  }
 
-    }
+  .image-grid-3-2x-tablet {
+    display: block;
+    width: 45vw;
+    margin: 2rem 0 0 1rem;
+  }
 
-    .image-grid-2-2x-tablet{
-        display: block;
-        width: 45vw;
-        height:89vw;
-        margin-bottom: -1rem;
-     }
-
-    .image-grid-3-2x-tablet
-    {
-        display: block;
-        width: 45vw; 
-        margin:  2rem 0 0 1rem;
-    }
-
-    .last-second-part-of-middle{
-        width: 45vw;
-        height: 38vw;
-    }
-
+  .last-second-part-of-middle {
+    width: 45vw;
+    height: 38vw;
+  }
 }
 /* ---part of top desktop ---- */
- @media screen and (min-width: 1440px){
-    .image-hero2x-tablet{
-        display: none;
-    }
+@media screen and (min-width: 1440px) {
+  .image-hero2x-tablet {
+    display: none;
+  }
 
-    .image-hero-desktop{
-        display: block;
-        width: 40vw;
-        height: 60vw;
-    }
+  .image-hero-desktop {
+    display: block;
+    width: 40vw;
+    height: 60vw;
+  }
 
-    .div_top_black_part{
-        width: 32vw;
-        height: 60vw;
-        background-color: black;
-    }
+  .div_top_black_part {
+    width: 32vw;
+    height: 60vw;
+    background-color: black;
+  }
 
-    .div-white-part-of-header{
-        width: 20vw;
-    }
+  .div-white-part-of-header {
+    width: 20vw;
+  }
 
-    .white-part-of-header{
-        width: 15vw;
-    }
+  .white-part-of-header {
+    width: 15vw;
+  }
 
-    .head-of-mobile-version{
-    
-      margin: 11rem 0 0 -51.5rem;
-      mix-blend-mode: difference;
-      color: white;
-      font-size: 7vw;
+  .head-of-mobile-version {
+    margin-top: 5rem;
+    margin-left: -58vw;
+    mix-blend-mode: difference;
+    color: white;
+    font-size: 7vw;
+  }
 
-    }
+  .text-of-top {
+    width: 31vw;
+    margin-top: -17vw;
+    font-size: 1.8vw;
+    line-height: 2.5vw;
+  }
 
-    .text-of-top{
-      width: 31vw;
-      margin-top: -17vw;
-      font-size: 1.8vw;
-      line-height: 2.5vw;
-    }
+  .top_part_connect_main_page:hover .arrow-right-black-part {
+    background-color: #d5966c;
+  }
 
-    .top_part_connect_main_page:hover .arrow-right-black-part{
-        background-color:#d5966c;
-    }
+  .top_part_connect_main_page:hover .img-icon-arrow-right {
+    background-color: black;
+  }
 
-    .top_part_connect_main_page:hover .img-icon-arrow-right{
-        background-color:black;
-    }
+  .icon-arrow-right {
+    width: 25vw;
+    height: 7vw;
+  }
 
-    .icon-arrow-right{
-        width: 25vw;
-        height: 7vw;
-    }
+  .arrow-right-black-part {
+    width: 20vw;
+    height: 7vw;
+  }
 
-    .arrow-right-black-part{
-        width: 20vw;
-        height: 7vw;
-    }
+  .img-icon-arrow-right {
+    width: 6vw;
+    height: 7vw;
+  }
 
-    .img-icon-arrow-right{
-        width: 6vw;
-        height: 7vw;
-    }
+  .h1-arrow-right-black-part {
+    line-height: 2.5vw;
+    font-size: 2vw;
+  }
 
-    .h1-arrow-right-black-part{
-        line-height: 2.5vw;
-        font-size: 2vw;
-    }
+  /* ---part of middle desktop ---- */
+  .middle-section .first-part-of-middle {
+    margin: -10rem 10rem 0 0;
+  }
 
-    /* ---part of middle desktop ---- */
-    .first-part-of-middle{
-        margin: -5rem 10rem 0 0;
-    }
+  .image-grid-1-2x-tablet,
+  .image-grid-2-2x-tablet,
+  .image-grid-3-2x-tablet {
+    display: none;
+  }
 
-    .image-grid-1-2x-tablet,
-    .image-grid-2-2x-tablet,
-    .image-grid-3-2x-tablet{
-     display: none;
-    }
+  .image-grid-1-desktop,
+  .image-grid-2-desktop,
+  .image-grid-3-desktop {
+    display: block;
+  }
 
-    .image-grid-1-desktop,
-    .image-grid-2-desktop,
-    .image-grid-3-desktop{
-        display: block;
-    }
+  .image-grid-1-desktop {
+    width: 45vw;
+  }
 
-    .image-grid-1-desktop{
-        width: 45vw;
-  
-    }
+  .middle-page-first-part {
+    margin-left: 10rem;
+    height: 28vw;
+  }
 
-    .middle-page-first-part{
-        margin-left: 10rem;
-        height: 28vw;
-    }
+  .second-head {
+    width: 27vw;
+    font-size: 4vw;
+    line-height: 4vw;
+    margin: -3rem 0 0 2rem;
+  }
 
-    .second-head{
-        width: 27vw;
-        font-size: 4vw;
-        line-height: 4vw;
-        margin: -3rem 0 0 3rem;
-    }
+  .first-text-of-middle {
+    width: 28vw;
+    font-size: 1.5vw;
+    line-height: 2.2vw;
+    margin: -16rem 10rem 0 2rem;
+  }
 
-    .first-text-of-middle{
-        width: 27vw;
-        font-size:1.3vw;
-        line-height: 2.2vw;
-        margin: -15rem 10rem 0 3rem;
-    }
+  /* --- second part of middle desktop ---- */
 
-     /* --- second part of middle desktop ---- */
-      
-     .second-part-of-middle{
-        width: 50vw;
-        margin: -15rem 8rem 0 14rem;
-     }
+  .second-part-of-middle {
+    width: 50vw;
+    height: 47vw;
+    margin: 0 8rem 0 14rem;
+  }
 
-      .div-second-part-of-grid{
-        margin-top: 1rem;
-      }
-     
-     .image-grid-2-desktop{
-        width: 49.5vw;
-        height: 50vw;
-     }
+  .div-second-part-of-grid {
+    margin-top: 1rem;
+  }
 
-     .image-grid-3-desktop{
-        width: 31vw;
-        height: 21vw;
-        margin-left: 2rem;
-     }
+  .image-grid-2-desktop {
+    width: 49.5vw;
+    height: 50vw;
+  }
 
-     .last-second-part-of-middle{
-        width: 31vw;
-        height: 28vw;
-        margin-left: 2rem;
-     }
+  .image-grid-3-desktop {
+    width: 31vw;
+    height: 21vw;
+    margin-left: 2rem;
+  }
 
-    .third-head{
-        font-size: 4.15vw;
-        line-height: 4vw;
-    }
+  .last-second-part-of-middle {
+    width: 31vw;
+    height: 28vw;
+    margin-left: 2rem;
+  }
 
-    .text-second-part-of-middle{
-        width: 27vw;
-        font-size: 1.6vw;
-        line-height: 2.5vw;
-    }
+  .third-head {
+    font-size: 4.15vw;
+    line-height: 4.5vw;
+    margin-left: 5rem;
+    margin-left: 2rem;
+  }
 
-    /* --- button of  desktop ---- */
-    .icon-light{
-       width: 15vw;
-       margin: 7rem  0 0 15rem;
-       }
+  .text-second-part-of-middle {
+    width: 27vw;
+    font-size: 1.6vw;
+    line-height: 2.5vw;
+    margin-left: 2rem;
+  }
 
-    .text-of-button-part{
-        width: 29.5vw;
-        font-size: 1rem;
-        line-height: 1.8rem;
-        margin: 2rem 0 0 5rem;
-    }
+  /* --- button of  desktop ---- */
+  .icon-light {
+    width: 15vw;
+    margin: 7rem 0 0 15rem;
+  }
 
-    .button-icons{
-        margin-top: 7rem;
-    }
-} 
- /* ---part of desktop 2x ---- */
- @media screen and (min-width: 1770px){
-    .image-hero-desktop{
-        display: none;
-    }
+  .text-of-button-part {
+    width: 35vw;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin: 2rem 0 0 5rem;
+  }
 
-    .image-hero2x-desktop{
-        display: block;
-        width: 40vw;
-        height: 60vw;
-    }
+  .button-icons {
+    margin-top: 7rem;
+  }
+  .icon-fb:hover {
+    background-color: #d5966c;
+    cursor: pointer;
+  }
+}
+/* ---part of desktop 2x ---- */
+@media screen and (min-width: 1770px) {
+  .image-hero-desktop {
+    display: none;
+  }
 
-    .head-of-mobile-version{
-        margin-left: -58.5vw;
-    }
+  .image-hero2x-desktop {
+    display: block;
+    width: 40vw;
+    height: 60vw;
+  }
 
-    .image-grid-1-desktop{
-        display: none;
-    }
+  .head-of-mobile-version {
+    margin-left: -58.5vw;
+  }
 
-    .image-grid-1-2x-desktop{
-        display: block;
-        width: 41vw;
-        margin-right: 2vw;
-    }
+  .image-grid-1-desktop {
+    display: none;
+  }
 
-    .image-grid-2-desktop{
-       display: none;
-    }
+  .image-grid-1-2x-desktop {
+    display: block;
+    width: 41vw;
+    margin-right: 4rem;
+  }
 
-    .image-grid-2-2x-desktop{
-      display: block;
-      width: 47vw;
-      margin-left: -3vw;
-    }
+  .image-grid-2-desktop {
+    display: none;
+  }
 
-    .image-grid-3-desktop{
-        display: none;
-     }
+  .image-grid-2-2x-desktop {
+    display: block;
+    width: 47vw;
+    margin-left: -3rem;
+  }
 
-    .image-grid-3-2x-desktop{
-        display: block;
-        width: 35vw;
-        margin-left: 1.7vw;
-    }
+  .image-grid-3-desktop {
+    display: none;
+  }
 
-    .last-second-part-of-middle{
-        width: 35vw;
-    }
+  .image-grid-3-2x-desktop {
+    display: block;
+    width: 35vw;
+    margin-left: 1.7rem;
+  }
+  .first-text-of-middle {
+    margin: -25rem 10rem 0 4rem;
+  }
+  .second-head {
+    margin-left: 4rem;
+  }
+  .last-second-part-of-middle {
+    width: 35vw;
+  }
 
-    .third-head{
-        width: 20vw;
-    }
-    
-    .text-second-part-of-middle{
-        width: 27vw;
-    }
- }
+  .third-head {
+    width: 20vw;
+  }
+
+  .text-second-part-of-middle {
+    width: 27vw;
+  }
+}
